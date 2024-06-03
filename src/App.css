@@ -1,0 +1,26 @@
+*{ 
+    margin: 0px;
+    padding:0px;
+    font-family:sans-serif;
+    
+}
+.patten{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    background: rgb(234,138,147);
+background: linear-gradient(56deg, rgba(234,138,147,1) 0%, rgba(64,42,49,1) 0%, rgba(107,73,76,1) 14%, rgba(21,18,24,1) 100%);
+    border: 1px solid transparent;
+    border-radius: 0vh 0vh 30vh 40vh;
+}
+.text-container{
+    width: 50%;
+    height: max-content;
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
