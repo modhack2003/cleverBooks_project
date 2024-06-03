@@ -3,7 +3,11 @@
     padding: 0px;
     font-family: sans-serif;
 }
-
+.hero{
+    width: 100%;
+    height: 130vh;
+    margin-bottom: 15vh;
+}
 .patten {
     display: flex;
     flex-direction: column;
@@ -29,7 +33,7 @@
 .text-container h2 {
     margin-top: 17vh;
     margin-bottom: 7vh;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: white;
 }
 
@@ -77,13 +81,67 @@
 .text-container button:hover{
     color: white;
     box-shadow: 0 0 0 2px rgba(184, 119, 208, 1); }
-
+.Marquee{
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
 .img-container{
     position: absolute;
-    bottom: -35vh;
+    bottom: -40vh;
     border-radius: 25px;
     width: 110%;
     height: 80%;
     overflow: hidden;
    
 }
+.flex_container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.flex_container h1{
+    font-size: 2.6rem;
+    margin-bottom: 5vh;
+}
+.flex_container p{
+    margin-bottom: 5vh;
+}
+.flex_container .tabs{
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.text-tabs{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: max-content;
+}
+.text-tabs p {
+    margin-top: 1vh;
+}
+.img-tabs{
+    width: 35vw;
+    height: 40vh; 
+}
+.img-tabs img{
+    width: 90%;
+    height: 90%;
+}
+.tabs:nth-child(even){
+ flex-direction: row-reverse;
+}
+
