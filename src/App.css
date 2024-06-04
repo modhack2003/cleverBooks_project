@@ -83,7 +83,7 @@
     box-shadow: 0 0 0 2px rgba(184, 119, 208, 1); }
 .Marquee{
     background-color: #ffffff;
-    min-height: 100vh;
+    margin: 10vh 10vh 0px 0px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,5 +143,6 @@
 }
 .tabs:nth-child(even){
  flex-direction: row-reverse;
+ 
 }
 
